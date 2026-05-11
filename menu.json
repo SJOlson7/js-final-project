@@ -1,0 +1,34 @@
+{
+  "menu": [
+    {
+      "name": "Pad Thai",
+      "description": "Stir-fried rice noodles with egg, tofu, bean sprouts, peanuts, and tamarind sauce.",
+      "price": 13.99
+    },
+    {
+      "name": "Green Curry",
+      "description": "Spicy green curry with coconut milk, bamboo shoots, Thai basil, and vegetables.",
+      "price": 14.99
+    },
+    {
+      "name": "Tom Yum Soup",
+      "description": "Hot and sour soup with shrimp, mushrooms, lemongrass, and lime leaves.",
+      "price": 9.99
+    },
+    {
+      "name": "Massaman Curry",
+      "description": "Mild curry with potatoes, onions, peanuts, and coconut milk.",
+      "price": 15.49
+    },
+    {
+      "name": "Thai Fried Rice",
+      "description": "Jasmine rice stir-fried with egg, onions, tomatoes, and choice of protein.",
+      "price": 12.99
+    },
+    {
+      "name": "Mango Sticky Rice",
+      "description": "Sweet sticky rice served with fresh mango and coconut cream.",
+      "price": 7.99
+    }
+  ]
+}

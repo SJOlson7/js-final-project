@@ -1,0 +1,51 @@
+[    
+    {
+        "event": "Food Truck Fridays",
+        "date": "June 12, 2026",
+        "time": "5pm - 9pm",
+        "venue": "South Park",
+        "location": "Oshkosh, WI"
+    },
+    {
+        "event": "Live at the Leach",
+        "date": "July 7, 2026",
+        "time": "4pm - 8pm",
+        "venue": "Leach Amphitheater",
+        "location": "Oshkosh, WI"
+    },
+    {
+        "event": "Bye Gosh Fest",
+        "date": "May 7, 2026",
+        "time": "3:30pm - 10pm",
+        "venue": "UWO - Kolf Center",
+        "location": "Oshkosh, WI"
+    },
+    {
+        "event": "Touch-A-Truck",
+        "date": "September 19, 2026",
+        "time": "10am - 1pm",
+        "venue": "Leach Amphitheater",
+        "location": "Oshkosh, WI"
+    },
+    {
+        "event": "Cinco de Fly-O",
+        "date": "May 5, 2026",
+        "time": "12pm - 9pm",
+        "venue": "Appleton International Airport - ATW",
+        "location": "Appleton, WI"
+    },
+    {
+        "event": "Heid Music Summer Concert Series",
+        "date": "July 16, 2026",
+        "time": "5:30pm - 8:30pm",
+        "venue": "Jones Park",
+        "location": "Appleton, WI"
+    },
+    {
+        "event": "Pulling For Honor",
+        "date": "August 15, 2026",
+        "time": "10:00 am - 2:00pm",
+        "venue": "Appleton International Airport - ATW",
+        "location": "Appleton, WI"
+    }
+]
