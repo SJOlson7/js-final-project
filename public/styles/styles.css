@@ -30,6 +30,7 @@ p {
     padding: 12px;
     border-radius: 8px;
     margin-bottom: 10px;
+    text-align: center;
 
 }
 
@@ -62,7 +63,19 @@ main {
     margin: auto;
 }
 
+main div {
+
+    margin-bottom: 40px;
+}
+
+.tagline {
+
+    text-align: center;
+    color: #666;
+}
+
 footer {
 
     text-align: center;
+    font-size: 12px;
 }
