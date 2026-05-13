@@ -20,13 +20,15 @@
         <div>   
             <h1>Create a Menu Item</h1>
 
-            <form>
+            <form id="menu-form">
             <label>Name:</label>
-            <input type="text"><br><br>
+            <input id="menuname-input" type="text" required><br><br>
             <label>Description:</label>
-            <input type="text"><br><br>
+            <input id="menudescription-input" type="text" required><br><br>
             <label>Price ($):</label>
-            <input type="number"><br><br>
+            <input id="menuprice-input" type="number" required><br><br>
+            <label>Photo:</label>
+            <input id="menuphoto-input" type="text"><br><br>
 
             <button type="submit">Add Menu Item</button>
             </form>
@@ -40,17 +42,17 @@
 
             <h1>Create an Event</h1>
 
-            <form>
+            <form id="event-form">
             <label>Event Name:</label>
-            <input type="text"><br><br>
+            <input id="eventname-input" type="text" required><br><br>
             <label>Date:</label>
-            <input type="date"><br><br>
+            <input id="eventdate-input" type="date" required><br><br>
             <label>Time:</label>
-            <input type="time"><br><br>
+            <input id="eventtime-input" type="time" required><br><br>
             <label>Venue:</label>
-            <input type="text"><br><br>
+            <input id="eventvenue-input" type="text"><br><br>
             <label>Location:</label>
-            <input type="text"><br><br>
+            <input id="eventlocation-input" type="text"><br><br>
 
             <button type="submit">Add Event</button>
             </form>
