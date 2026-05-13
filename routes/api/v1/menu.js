@@ -4,7 +4,7 @@ const { getCollection, ObjectId } = require('../../../dbconnect')
 let collection = null
 
 const getMenu = async () => {
-    if (!collection) {collection = await getCollection('mais-thai', 'Menu')}
+    if (!collection) {collection = await getCollection('Mais-ThaiAPI', 'Menu')}
     return collection
 }
 
@@ -24,9 +24,9 @@ router.get('/:id', async (request, response) => {
 })
 
 router.post('/', async (request, response) => {
-    const { name, description, price, image } = request.body
+    const { name, description, price, photo } = request.body
     const collection = await getMenu()
-    const { acknowledged, insertedId } = await collection.insertOne({ name, description, price, image })
+    const { acknowledged, insertedId } = await collection.insertOne({ name, description, price, photo })
 
     response.send({ acknowledged, insertedId })
 })

@@ -10,14 +10,29 @@ GET {{url}}/menu
 GET {{url}}/events
 
 ### Menu Items By ID
-GET {{url}}/menu/:id
+GET {{url}}/menu/1
 
 ### Events By ID
-GET {{url}}/events/:id
+GET {{url}}/events/2
 
 
 ### Add menu item to database
 POST {{url}}/menu
+Content-Type: application/json
+
+{
+    "name": "Mai's Pad Thai",
+    "description": "Rice noodles with peanut sauce",
+    "price": 12.99,
+    "photo": "padthai.jpg"
+}
 
 ### Add event to database
 POST {{url}}/events
+{
+    "event": "Farmers Market",
+    "date": "May 20, 2026",
+    "time": "6:00pm - 8pm",
+    "venue": "Downtown Appleton",
+    "location": "Appleton, WI"
+}
