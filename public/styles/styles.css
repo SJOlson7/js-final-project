@@ -74,6 +74,31 @@ main div {
     color: #666;
 }
 
+label {
+
+    margin-right: 10px;
+}
+
+form {
+
+    width: fit-content;
+    margin: auto;
+}
+
+input {
+
+    padding: 5px;
+}
+
+button {
+
+    background-color: #8a464f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
 footer {
 
     text-align: center;
