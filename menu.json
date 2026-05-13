@@ -3,32 +3,38 @@
     {
       "name": "Pad Thai",
       "description": "Stir-fried rice noodles with egg, tofu, bean sprouts, peanuts, and tamarind sauce.",
-      "price": 13.99
+      "price": 13.99,
+      "photo": "https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "name": "Green Curry",
-      "description": "Spicy green curry with coconut milk, bamboo shoots, Thai basil, and vegetables.",
-      "price": 14.99
+      "description": "Spicy Thai green curry with coconut milk, Thai basil, bamboo shoots, and vegetables.",
+      "price": 14.99,
+      "photo": "https://images.unsplash.com/photo-1604909052743-94e838986d24?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "name": "Tom Yum Soup",
-      "description": "Hot and sour soup with shrimp, mushrooms, lemongrass, and lime leaves.",
-      "price": 9.99
+      "description": "Hot and sour Thai soup with shrimp, mushrooms, lemongrass, galangal, and lime leaves.",
+      "price": 9.99,
+      "photo": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "name": "Massaman Curry",
-      "description": "Mild curry with potatoes, onions, peanuts, and coconut milk.",
-      "price": 15.49
+      "description": "Rich and mild Thai curry with potatoes, peanuts, onions, and coconut milk.",
+      "price": 15.49,
+      "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "name": "Thai Fried Rice",
-      "description": "Jasmine rice stir-fried with egg, onions, tomatoes, and choice of protein.",
-      "price": 12.99
+      "description": "Jasmine rice stir-fried with egg, onions, tomatoes, scallions, and choice of protein.",
+      "price": 12.99,
+      "photo": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "name": "Mango Sticky Rice",
-      "description": "Sweet sticky rice served with fresh mango and coconut cream.",
-      "price": 7.99
+      "description": "Sweet sticky rice served with fresh mango slices and coconut cream.",
+      "price": 7.99,
+      "photo": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }

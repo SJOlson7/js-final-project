@@ -1,0 +1,23 @@
+
+### Variables
+
+@url = http://localhost:3000/api/v1
+
+### Menu Items
+GET {{url}}/menu
+
+### List of Items
+GET {{url}}/events
+
+### Menu Items By ID
+GET {{url}}/menu/:id
+
+### Events By ID
+GET {{url}}/events/:id
+
+
+### Add menu item to database
+POST {{url}}/menu
+
+### Add event to database
+POST {{url}}/events
