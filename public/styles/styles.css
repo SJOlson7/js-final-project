@@ -24,6 +24,12 @@ h2 {
 
 }
 
+#event-title {
+    text-align: center;
+    margin-top: 60px;
+    border-bottom: none;
+}
+
 p {
 
     background-color: white;
@@ -43,7 +49,7 @@ nav {
 
 }
 
-nav a {
+a {
 
     text-decoration: none;
     color: #8a464f;
@@ -52,7 +58,7 @@ nav a {
 
 }
 
-nav a:hover {
+a:hover {
 
     color: #c0392b;
 }

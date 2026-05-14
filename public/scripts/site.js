@@ -3,6 +3,7 @@
 
 const menuContainer = document.querySelector('#menu-item')
 const eventContainer = document.querySelector('#event-name')
+const specificEventContainter = document.querySelector('#specific-event')
 
 if (menuContainer) {
 
@@ -21,6 +22,7 @@ if (menuContainer) {
     })
 }
 
+// Events on Home page
 
 if (eventContainer) {
 
@@ -29,15 +31,36 @@ if (eventContainer) {
 
     events.forEach(event => {
 
-        eventContainer.innerHTML +=
-            "<p>" + "<strong>" + event.event + "</strong><br>" +
-                event.date + "<br>" +
-                event.time + "<br>" +
-                event.location +
-            "</p>"
-
+        eventContainer.innerHTML += `
+            <p><strong>
+            <a href="events.html?id=${event._id}">${event.event}</a>
+            </strong><br>
+            ${event.date}</p>
+            `
     })
 }
+
+// Event detail page
+
+if (specificEventContainter) {
+
+
+    const params = new URLSearchParams(window.location.search)
+    const id = params.get("id")
+
+    const res = await fetch(`/api/v1/events/${id}`)
+    const event = await res.json()
+
+
+    specificEventContainter.innerHTML = `
+        <h2 id="event-title">${event.event}</h2>
+        <p class="event-details"><strong>Date:</strong> ${event.date}</p>
+        <p class="event-details"><strong>Time:</strong> ${event.time}</p>
+        <p class="event-details"><strong>Venue:</strong> ${event.venue}</p>
+        <p class="event-details"><strong>Location:</strong> ${event.location}</p>
+    `
+}
+
 
 
 const menuForm = document.querySelector('#menu-form')
