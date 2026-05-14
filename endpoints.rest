@@ -10,10 +10,10 @@ GET {{url}}/menu
 GET {{url}}/events
 
 ### Menu Items By ID
-GET {{url}}/menu/1
+GET {{url}}/menu/:id
 
 ### Events By ID
-GET {{url}}/events/2
+GET {{url}}/events/:id
 
 
 ### Add menu item to database
@@ -29,6 +29,8 @@ Content-Type: application/json
 
 ### Add event to database
 POST {{url}}/events
+Content-Type: application/json
+
 {
     "event": "Farmers Market",
     "date": "May 20, 2026",
